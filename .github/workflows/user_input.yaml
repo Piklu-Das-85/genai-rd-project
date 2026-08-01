@@ -1,7 +1,7 @@
 name: Test User Input Workflow
 
 on: 
-  workflow_dispatch  
+  workflow_dispatch:  
     inputs:
       number1:
        description: 'First number
