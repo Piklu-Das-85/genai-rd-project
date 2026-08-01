@@ -2,16 +2,15 @@ name: Test User Input Workflow
 
 on: 
   workflow_dispatch  
-  inputs:
-   number1:
-     description: 'First number
-     default: '0'
-     required: true
-  number2:
-    description: 'second number'
-    default: '0'
-    required: true
-
+    inputs:
+      number1:
+       description: 'First number
+       default: '0'
+       required: true
+      number2:
+        description: 'second number'
+        default: '0'
+        required: true
 jobs:
     add_numbers:
       runs-on: ubuntu-latest
