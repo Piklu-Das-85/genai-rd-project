@@ -4,7 +4,7 @@ on:
   workflow_dispatch:  
     inputs:
       number1:
-       description: 'First number
+       description: 'First number'
        default: '0'
        required: true
       number2:
